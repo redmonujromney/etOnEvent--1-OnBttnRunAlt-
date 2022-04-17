@@ -1,0 +1,2 @@
+# etOnEvent--1-OnBttnRunAlt-
+UICtrlSetOnEvent(-1, "OnBttnRunAlt") ;                with and without child GUI.     GUICtrlSetTip(-1, "run alternate versions," &amp; @LF &amp; "with and without child GUI.")     ;I need this child(s), but with it, it does not behave as expected.     ;..for this test you can comment it out, to see that it should work.     ;..but with the child, instead it executes after clicking another control.     If Not StringInStr($CmdLineRaw, "/ExampleOnlyParent")
